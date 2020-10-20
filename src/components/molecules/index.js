@@ -1,5 +1,5 @@
-import TypingBar from './TypingBar';
 import { Message, MyMessage } from './Message';
 import HomeNav from './HomeNav';
+import RegisterForm from './RegisterForm';
 
-export { HomeNav, TypingBar, Message, MyMessage };
+export { HomeNav, Message, MyMessage, RegisterForm };

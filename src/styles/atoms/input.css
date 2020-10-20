@@ -1,0 +1,29 @@
+.Input {
+  display: grid;
+  grid-gap: 10px;
+}
+.Input label {
+  color: white;
+  font-size: 16px;
+}
+.Input input {
+  border: none;
+  border-radius: 5px;
+  background-color: #393e46;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+.Submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.Submit input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  background-color: #465efc;
+}

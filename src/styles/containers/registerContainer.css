@@ -1,0 +1,9 @@
+.RegisterContainer {
+  margin: 50px 20px;
+}
+.RegisterContainer-h1 {
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
