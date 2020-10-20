@@ -1,6 +1,15 @@
 .Title {
   font-size: 18px;
+  font-weight: 800;
   color: white;
+}
+.PurpleText {
+  color: #465efc;
+  font-size: 16px;
+}
+.SimpleP {
+  color: white;
+  font-size: 16px;
 }
 .MessageText {
   font-size: 14px;

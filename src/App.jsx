@@ -9,8 +9,6 @@ export const App = () => {
     <BrowserRouter>
       <Switch>
         <Route exact path="/" component={Home} />
-
-        <Route exact path="/chat" component={Chat} />
       </Switch>
     </BrowserRouter>
   );
