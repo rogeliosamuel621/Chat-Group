@@ -2,7 +2,7 @@ import React from 'react';
 import './styles/app.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import { Chat, Home } from './components/pages/';
+import { Home } from './components/pages/';
 
 export const App = () => {
   return (

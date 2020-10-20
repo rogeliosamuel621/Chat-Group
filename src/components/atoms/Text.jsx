@@ -6,8 +6,12 @@ const Title = ({ content }) => {
   return <h1 className="Title">{content}</h1>;
 };
 
-const PurpleText = ({ content }) => {
-  return <Link className="PurpleText">{content}</Link>;
+const PurpleText = ({ content, url }) => {
+  return (
+    <Link to={url} className="PurpleText">
+      {content}
+    </Link>
+  );
 };
 
 const SimpleP = ({ content }) => {

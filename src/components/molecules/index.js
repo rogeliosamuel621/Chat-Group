@@ -1,5 +1,5 @@
-import ChatHeader from './ChatHeader';
 import TypingBar from './TypingBar';
 import { Message, MyMessage } from './Message';
+import HomeNav from './HomeNav';
 
-export { ChatHeader, TypingBar, Message, MyMessage };
+export { HomeNav, TypingBar, Message, MyMessage };

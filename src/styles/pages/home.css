@@ -1,4 +1,27 @@
-.Home-Title h1 {
+.Home-Main {
+  display: grid;
+  grid-gap: 20px;
+  margin: 50px 10px;
+}
+.Home-Illustration-Container {
+  display: flex;
+  justify-content: center;
+}
+.Home-Description {
+  display: grid;
+  justify-content: center;
+}
+.Home-Description p {
   text-align: center;
-  font-weight: 400;
+}
+.Home-Description a {
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #465efc;
+  background-color: #465efc;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  margin: 0 25%;
 }
