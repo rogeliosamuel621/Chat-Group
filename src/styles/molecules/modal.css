@@ -1,0 +1,28 @@
+.Modal {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.5s;
+}
+.Modal-Content {
+  display: grid;
+  grid-gap: 25px;
+  background-color: #252b43;
+  border-radius: 5px;
+  width: 250px;
+  margin: 20% auto;
+  position: relative;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.8);
+}
+#Modal:target {
+  opacity: 1;
+  pointer-events: auto;
+}

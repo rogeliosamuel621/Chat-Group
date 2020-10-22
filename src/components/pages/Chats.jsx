@@ -3,7 +3,7 @@ import '../../styles/pages/chats.css';
 
 import { Nav } from '../molecules/';
 import { ChatsContainer } from '../containers/';
-import { Header, AddContact } from '../atoms/';
+import { Header } from '../atoms/';
 
 const Chats = () => {
   return (

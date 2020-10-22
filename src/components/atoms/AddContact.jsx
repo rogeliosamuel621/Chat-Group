@@ -8,9 +8,9 @@ const AddContact = () => {
     console.log('working');
   }
   return (
-    <div className="AddContact" onClick={showModal}>
+    <a href="#Modal" className="AddContact" onClick={showModal}>
       <img src={Add} alt="Add icon" width="40px" height="40px" />
-    </div>
+    </a>
   );
 };
 

@@ -4,6 +4,7 @@ import RegisterForm from './RegisterForm';
 import LoginForm from './LoginForm';
 import Nav from './Nav';
 import ChatPreview from './ChatPreview';
+import Modal from './Modal';
 
 export {
   HomeNav,
@@ -13,4 +14,5 @@ export {
   LoginForm,
   Nav,
   ChatPreview,
+  Modal,
 };

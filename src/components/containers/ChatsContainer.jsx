@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../../styles/containers/chatsContainer.css';
 
 import { AddContact } from '../atoms/';
-import { ChatPreview } from '../molecules/';
+import { ChatPreview, Modal } from '../molecules/';
 import { fakeUsers } from '../../utils/fakeUsers';
 
 const ChatContainer = () => {
@@ -17,6 +17,7 @@ const ChatContainer = () => {
         })}
       </div>
       <AddContact />
+      <Modal />
     </main>
   );
 };
