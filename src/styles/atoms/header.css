@@ -1,4 +1,8 @@
-.Chats-H1 {
+.Header {
+  background-color: #465efc;
+  padding: 25px 0 50px;
+}
+.Header h1 {
   margin: 0;
   text-align: center;
   font-size: 18px;

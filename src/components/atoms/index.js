@@ -6,6 +6,7 @@ import {
   UserMessageName,
 } from './Text';
 import { Input, Submit } from './Input';
+import Header from './Header';
 
 export {
   MessageText,
@@ -15,4 +16,5 @@ export {
   UserMessageName,
   Input,
   Submit,
+  Header,
 };
