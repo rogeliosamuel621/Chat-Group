@@ -11,7 +11,7 @@ const LoginForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="RegisterForm">
+    <form onSubmit={handleSubmit} className="Form">
       <Input label="Email" type="email" onChange={setEmail} value={email} />
       <Input
         label="Password"

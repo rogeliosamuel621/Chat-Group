@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../styles/molecules/registerForm.css';
+import '../../styles/molecules/Form.css';
 
 import { Input, Submit } from '../atoms/';
 
@@ -13,7 +13,7 @@ const RegisterForm = () => {
   }
 
   return (
-    <form onSubmit={handleSubmit} className="RegisterForm">
+    <form onSubmit={handleSubmit} className="Form">
       <Input label="Email" type="email" onChange={setEmail} value={email} />
       <Input
         label="Username"

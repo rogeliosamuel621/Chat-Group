@@ -1,7 +1,7 @@
-.RegisterContainer {
+.Container {
   margin: 50px 20px;
 }
-.RegisterContainer-h1 {
+.Container-h1 {
   color: white;
   text-align: center;
   font-size: 18px;
