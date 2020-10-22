@@ -1,0 +1,10 @@
+.Nav {
+  position: absolute;
+  width: 280px;
+  height: 52px;
+  left: 20px;
+  top: 499px;
+
+  background: #393e46;
+  border-radius: 5px;
+}
