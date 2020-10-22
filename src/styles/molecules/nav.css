@@ -1,11 +1,16 @@
 .Nav {
-  position: absolute;
-  width: 280px;
-  height: 52px;
-  left: 20px;
-  top: 499px;
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.Nav-Content {
   background: #393e46;
   border-radius: 5px;
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px;
+  width: 81%;
 }

@@ -1,14 +1,18 @@
 import React from 'react';
+import '../../styles/molecules/chatPreview.css';
 
 const ChatPreview = ({ img, username }) => {
   return (
-    <article>
-      <div>
-        <img src={img} alt="profile pic friend" width="40px" height="40px" />
+    <article className="ChatPreview">
+      <div className="ChatPreview-Content">
+        <div className="ChatPreview-ProfilePic">
+          <img src={img} alt="profile pic friend" width="40px" height="40px" />
+        </div>
+        <div>
+          <p>{username}</p>
+        </div>
       </div>
-      <div>
-        <p>{username}</p>
-      </div>
+      <hr />
     </article>
   );
 };

@@ -1,19 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../styles/containers/chatsContainer.css';
 
-import { ChatPreview } from '../molecules/';
+import { ChatPreview, Nav } from '../molecules/';
+import { fakeUsers } from '../../utils/fakeUsers';
 
 const ChatContainer = () => {
+  const [chats, setChats] = useState(fakeUsers);
   return (
     <main className="ChatsContainer">
-      <ChatPreview
-        img="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602633373/mmoccv9jgmkjls642tfa.jpg"
-        username="Alan"
-      />
-      <ChatPreview
-        img="https://res.cloudinary.com/dnvp4s8pe/image/upload/v1602359377/rwgi2xs3x8m1bjaq1z2d.jpg"
-        username="Rogelio"
-      />
+      <div className="ChatsContainer-Content">
+        {chats.map((user, index) => {
+          return (
+            <ChatPreview key={index} img={user.img} username={user.username} />
+          );
+        })}
+      </div>
+      <Nav />
     </main>
   );
 };

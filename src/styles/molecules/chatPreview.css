@@ -1,0 +1,16 @@
+.ChatPreview-Content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.ChatPreview-Content div {
+  margin: 0 20px 0 0;
+}
+.ChatPreview-Content div p {
+  color: white;
+  font-size: 16px;
+}
+.ChatPreview-ProfilePic img {
+  border-radius: 5px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.75);
+}
