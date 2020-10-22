@@ -1,0 +1,11 @@
+.AddContact {
+  position: fixed;
+  right: 20px;
+  bottom: 90px;
+  border-radius: 50px;
+  cursor: pointer;
+  background-color: #465efc;
+}
+.AddContact img {
+  margin-bottom: -4px;
+}

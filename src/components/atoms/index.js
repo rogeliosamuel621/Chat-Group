@@ -7,6 +7,7 @@ import {
 } from './Text';
 import { Input, Submit } from './Input';
 import Header from './Header';
+import AddContact from './AddContact';
 
 export {
   MessageText,
@@ -17,4 +18,5 @@ export {
   Input,
   Submit,
   Header,
+  AddContact,
 };

@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import '../../styles/containers/chatsContainer.css';
 
-import { ChatPreview, Nav } from '../molecules/';
+import { AddContact } from '../atoms/';
+import { ChatPreview } from '../molecules/';
 import { fakeUsers } from '../../utils/fakeUsers';
 
 const ChatContainer = () => {
@@ -15,7 +16,7 @@ const ChatContainer = () => {
           );
         })}
       </div>
-      <Nav />
+      <AddContact />
     </main>
   );
 };
