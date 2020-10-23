@@ -14,13 +14,25 @@
 }
 .Modal-Content {
   display: grid;
-  grid-gap: 25px;
-  background-color: #252b43;
+  grid-gap: 20px;
+  background-color: #222831;
+  padding: 10px 10px 50px 10px;
   border-radius: 5px;
-  width: 250px;
-  margin: 20% auto;
-  position: relative;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.8);
+}
+.Modal-Content h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: center;
+}
+.Modal-Content-Close {
+  display: flex;
+  justify-content: flex-end;
+}
+.Modal-Content-Close a {
+  color: white;
+  text-decoration: none;
 }
 #Modal:target {
   opacity: 1;
