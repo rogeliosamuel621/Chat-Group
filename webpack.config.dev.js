@@ -5,6 +5,11 @@ const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.jsx'),
+  output: {
+    filename: 'bundle.[contenthash].js',
+    path: path.resolve(__dirname, 'dist./'),
+    publicPath: '/',
+  },
   mode: 'development',
   module: {
     rules: [
@@ -35,7 +40,8 @@ module.exports = {
   ],
   devServer: {
     historyApiFallback: true,
-    contentBase: './',
+    contentBase: path.join(__dirname, 'public/index.html'),
+    publicPath: '/',
     hot: true,
     port: 8080,
   },

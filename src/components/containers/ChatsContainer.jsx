@@ -12,7 +12,12 @@ const ChatContainer = () => {
       <div className="ChatsContainer-Content">
         {chats.map((user, index) => {
           return (
-            <ChatPreview key={index} img={user.img} username={user.username} />
+            <ChatPreview
+              key={user.ID}
+              ID={user.ID}
+              img={user.img}
+              username={user.username}
+            />
           );
         })}
       </div>

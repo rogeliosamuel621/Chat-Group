@@ -5,6 +5,7 @@ import LoginForm from './LoginForm';
 import Nav from './Nav';
 import ChatPreview from './ChatPreview';
 import Modal from './Modal';
+import ChatHeader from './ChatHeader';
 
 export {
   HomeNav,
@@ -15,4 +16,5 @@ export {
   Nav,
   ChatPreview,
   Modal,
+  ChatHeader,
 };

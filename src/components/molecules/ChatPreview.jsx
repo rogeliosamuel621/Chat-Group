@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../../styles/molecules/chatPreview.css';
 
-const ChatPreview = ({ img, username }) => {
+const ChatPreview = ({ img, username, ID }) => {
   return (
     <article className="ChatPreview">
-      <div className="ChatPreview-Content">
+      <Link to={`/chats/${ID}`} className="ChatPreview-Content">
         <div className="ChatPreview-ProfilePic">
           <img src={img} alt="profile pic friend" width="40px" height="40px" />
         </div>
         <div>
           <p>{username}</p>
         </div>
-      </div>
+      </Link>
       <hr />
     </article>
   );

@@ -1,0 +1,13 @@
+.ChatHeader {
+  background-color: #465efc;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0 50px;
+}
+.ChatHeader div h1 {
+  color: white;
+  font-size: 18px;
+  margin: 0;
+}
