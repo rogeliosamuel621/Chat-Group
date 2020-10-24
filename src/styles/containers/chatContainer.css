@@ -1,0 +1,12 @@
+.ChatContainer {
+  background-color: #222831;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  padding: 15px;
+  margin-top: -25px;
+}
+.ChatContainer-Messages {
+  display: grid;
+  max-height: 340px;
+  overflow: scroll;
+}

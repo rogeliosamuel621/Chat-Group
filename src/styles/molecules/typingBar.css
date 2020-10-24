@@ -1,7 +1,11 @@
 .TypingBar {
+  position: fixed;
   background-color: #3c393f;
   margin: 0 10px 10px 10px;
   border-radius: 5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .TypingBar-Form {
   display: grid;

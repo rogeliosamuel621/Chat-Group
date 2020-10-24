@@ -6,6 +6,7 @@ import Nav from './Nav';
 import ChatPreview from './ChatPreview';
 import Modal from './Modal';
 import ChatHeader from './ChatHeader';
+import TypingBar from './TypingBar';
 
 export {
   HomeNav,
@@ -17,4 +18,5 @@ export {
   ChatPreview,
   Modal,
   ChatHeader,
+  TypingBar,
 };
